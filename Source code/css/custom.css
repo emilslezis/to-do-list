@@ -1,0 +1,60 @@
+body{
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.col-sm-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: initial;
+}
+.title{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: auto;
+}
+button input{
+    cursor: auto
+}
+.card{
+    margin-bottom: 10px;
+    width: 50%;
+}
+.add_btn{
+    display: flex;
+    align-items: flex-end;
+    border: none;
+}
+.add_btn a{
+    width: 10%;
+    float: right;
+}
+@media (max-width: 767.98px) {
+    .card{
+        width: 100%;
+    }
+    .add_btn a{
+        width: 100%;
+    }
+}
